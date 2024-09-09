@@ -5,6 +5,8 @@
 <H3>DATE- 09-09-2024</H3>
 <H1 ALIGN =CENTER> Implementation of Approximate Inference in Bayesian Networks</H1>
 
+
+
 ### Aim: 
    To construct a python program to implement approximate inference using Gibbs Sampling.
 
@@ -51,8 +53,8 @@ from pgmpy.factors.discrete import TabularCPD
 from pgmpy.sampling import GibbsSampling
 import networkx as nx
 import matplotlib.pyplot as plt
-```
-```
+
+
 alarm_model = BayesianNetwork(
     [
         ("Burglary", "Alarm"),
